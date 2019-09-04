@@ -1,0 +1,31 @@
+.container {
+	max-width: 1000px;
+	margin: auto;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-areas: 'u' 'w' 'i' 'd' 'b';
+}
+.gridcik {
+	border: 1px solid silver;
+}
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+  text-transform: uppercase;
+}
+#bir { grid-area: b; }
+#iki { grid-area: i; }
+#uc { grid-area: u; }
+#dord { grid-area: d; }
+#bes { grid-area: w; }
+
+@media only screen and (min-width: 600px) {
+	.container {
+		grid-template-areas: 
+			'b b i'
+			'u d i'
+			'u w w';
+			grid-template-columns: 200px auto 160px;
+			grid-template-rows: 100px auto 50px;
+	}
+}

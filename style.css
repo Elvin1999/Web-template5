@@ -1,0 +1,433 @@
+header{
+    position: relative;
+    padding: 0 0 250px 0;
+    background-color: hsl(240, 3%, 13%);
+    height: 75vh;
+    border-bottom:5px solid #5895d7;
+}
+header h1{
+text-align: center;
+    text-transform: uppercase;
+    height: 100%;
+   width: 100%;
+   padding: 3% 0;
+    font: 2em "Georgia";
+    font-style: italic;
+    background-color: #5895d7;
+    color: white;
+}
+header .ctcontainer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 10%;
+}
+.ctcontainer p{
+    margin-top: 20px;
+    margin-right: 5px;
+    color: #717070;
+}
+.ctcontainer i{
+    margin-right: 2px;
+    margin-top:5px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    color: #717070;
+    background-color: #313133;
+    transition: 0.7s color;
+}
+header .ctcontainer .linkcontainer{
+    display: flex;
+    flex-direction: row;
+}
+header nav{
+    position: absolute;
+    bottom: 5%;
+    right: 0%;
+text-align: center;
+width: 100%;
+}
+header nav ul{
+display: flex;
+flex-direction: column;
+}
+nav ul li a{
+    /* margin-right: 40px; */
+    font: 1.4em "Georgia";
+    font-style: italic;
+    color: white;
+    padding: 5px;
+    transition: 0.7s background-color;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: #5895d7;
+}
+
+
+
+
+#container{
+    background: url("img/bgicon.jpg");
+    padding: 5% 0;
+    
+}
+#container .items{
+    padding: 5px;
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns:100%;
+    grid-template-rows: 210px 210px 210px 210px 210px 210px 210px 210px 210px 210px 210px 210px 210px 210px 210px;
+    grid-template-areas:
+    'a'
+    'b'
+    'c'
+    'd'
+    'e'
+    'f'
+    'g'
+    'h'
+    'i'
+    'j'
+    'k'
+    'l'
+    'm'
+    'n'
+    'r'
+    'p';
+}
+
+.items .i-1{grid-area: a;}
+.items .i-2{grid-area: b;}
+.items .i-3{grid-area: c;}
+.items .i-4{grid-area: d;}
+.items .i-5{grid-area: e;}
+.items .i-6{grid-area: f;}
+.items .i-7{grid-area: g;}
+.items .i-8{grid-area: h;}
+.items .i-9{grid-area: i;}
+.items .i-10{grid-area: j;}
+.items .i-11{grid-area: k;}
+.items .i-12{grid-area: l;}
+.items .i-13{grid-area: m;}
+.items .i-14{grid-area: n;}
+.items .i-15{grid-area: r;}
+.items .i-16{grid-area: p;}
+
+.items .item p{
+    font: 1.5em "Georgia";
+    font-style: italic;
+    color: #767676;
+    margin: 20px;
+    text-align: center;
+}
+.items .item{
+    background-color: #1e1e1e;
+opacity: 1;
+}
+.items .last{
+    background-color: #424141;
+}
+.shapecontainer{
+    display: flex;
+    flex-direction: row;
+    margin:10px 0;
+}
+.shapecontainer img{
+    margin: auto;
+}
+.shapecontainer p{
+    height: 1px;
+    width: 50px;
+    margin-top: 8px;
+    background-color:#3c3c3c; 
+}
+#contact{
+    padding:0 120px 40px 120px;
+    background-color: #202022;
+    position: relative;
+    width: 100%;
+}
+#contact .linkcontainer2{
+margin: auto;
+height: 50px;
+display: flex;
+flex-direction: row;
+margin-right: 30px;
+}
+#contact .linkcontainer2 i{
+border-radius: 50%;
+font-size: 1.5em;
+padding: 5%;
+margin: auto;
+margin-right: 5px;
+margin-top: -8%;
+background-color: rgba(38,38,39,0.6);
+transition: 0.5s color;
+}
+
+#contact .linkcontainer2 .fa-facebook:hover{
+    color: blue;
+}
+#contact .linkcontainer2 .fa-twitter:hover{
+    color: rgb(86, 86, 248);
+}
+#contact .linkcontainer2 .fa-youtube:hover{
+    color: red;
+}
+#contact .linkcontainer2 .fa-linkedin:hover{
+    color: rgb(132, 222, 250);
+}
+#contact .linkcontainer2 .fa-tumblr-square:hover{
+    color: rgb(134, 28, 196);
+}
+#contact .linkcontainer2 .fa-instagram:hover{
+    color: rgb(223, 102, 32);
+}
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-twitter:hover{
+    color: rgb(86, 86, 248);
+}
+ .fa-youtube:hover{
+    color: red;
+}
+.fa-linkedin:hover{
+    color: rgb(132, 222, 250);
+}
+.fa-tumblr-square:hover{
+    color: rgb(134, 28, 196);
+}
+.fa-instagram:hover{
+    color: rgb(223, 102, 32);
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+  
+}
+.container2 .ctitem{
+    text-align: center;
+   width: 100%;
+    margin-top: 10px;
+}
+.container2 .ctitem h1{
+    font: 1.3em "Georgia";
+    font-style: italic;
+    text-align: center;
+    color: #9b9b9c;
+    padding: 0 5px;
+}
+
+.ctitem .txtcontainer{
+    display: flex;
+    flex-direction: row;
+  
+}
+.txtcontainer p{
+    margin-top: 10px;
+    width: 20%;
+    border-top: 1px solid #9b9b9c;
+}
+.mydivcontainer{
+    display: grid;
+    grid-gap: 2px;
+    margin-top: 20px;
+    grid-template-columns:100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas:'a b'
+                        'c d'
+                        'e f';
+  
+}
+.mydivcontainer .block{
+    max-width: 98px;
+    max-height: 98px;
+    border: 4px solid #2b2b2c;
+    background-color: #424141;
+}
+.mydivcontainer .block .b-1{
+    grid-area: a;
+}
+.mydivcontainer .block .b-2{
+    grid-area: b;
+}
+.mydivcontainer .block .b-3{
+    grid-area: c;
+}
+.mydivcontainer .block .b-4{
+    grid-area: d;
+}
+.mydivcontainer .block .b-5{
+    grid-area: e;
+}
+.mydivcontainer .block .b-6{
+    grid-area: f;
+}
+
+.mydivcontainer2{
+    display: grid;
+    grid-gap: 2px;
+    margin-top: 20px;
+    grid-template-columns:100px 170px;
+    grid-template-rows: 100px 100px;
+    grid-template-areas:'a b'
+                        'c d';
+}
+.mydivcontainer2 h2{
+    font: 1.1em "Georgia";
+    font-style: italic;
+    text-align: center;
+    color: #9b9b9c;
+}
+
+.mydivcontainer2 .bb-1{
+    grid-area:a;
+    max-width: 98px;
+    max-height: 98px;
+    border: 4px solid #2b2b2c;
+    background-color: #424141;
+}
+
+.mydivcontainer2 .bb-2{
+    grid-area:b;
+}
+.mydivcontainer2 .bb-3{
+    grid-area:c;
+    max-width: 98px;
+    max-height: 98px;
+    border: 4px solid #2b2b2c;
+    background-color: #424141;
+}
+.mydivcontainer2 .bb-4{
+    grid-area:d;
+}
+
+.comments{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.comments h3,i{
+color: #767676;
+margin-left: 5px;
+}
+.comments h3{
+    text-transform: uppercase;
+}
+.inpcontainer input{
+    max-width: 270px;
+    height: 40px;
+    padding:5px;
+    margin-top: 16px;
+    background-color: #2b2b2c;
+    color: #c1c1c1;
+    border: 0;
+    font: 1.1em "Georgia";
+    font-style: italic;
+}
+.inpcontainer button{
+    width: 100px;
+    height: 40px;
+    margin-left: 50%;
+    margin-top: 30px;
+    background-color: #2b2b2c;
+    color: #c1c1c1;
+    border: 0;
+    outline: none;
+    font: 1em "Georgia";
+    font-style: italic;
+    text-transform: uppercase;
+    transition: 0.7s background-color;
+    padding: 2px;
+}
+.inpcontainer button:hover{
+    background-color:#5895d7;
+}
+footer{
+    height:25px;
+    background-color: #5895d7;
+    position: relative;
+}
+
+@media only screen and (min-width: 950px) {
+    .mydivcontainer{
+        grid-template-columns:100px 100px 100px;
+        grid-template-rows: 100px 100px;
+        grid-template-areas:'a b c'
+        'd e f';
+    }
+    #container .items{
+        padding: 0;
+        margin: auto;
+        width: 80%;
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 24% 24% 24% 24%;
+        grid-template-rows: 18% 18% 18% 18% 18%;
+        grid-template-areas:'a b c d'
+                            'e f c g'
+                            'h i j j'
+                            'k l m n'
+                            'k r p p';
+    }
+  header{
+      height: 14vh;
+      padding: 0 120px;
+  }
+  header .ctcontainer{
+    flex-direction: row;
+    top: 5px;
+  }
+  header h1{
+      width: 14%;
+  }
+  header .ctcontainer .linkcontainer{
+      display: flex;
+      flex-direction: row;
+  }
+  header nav{
+    position: absolute;
+    bottom: 0%;
+    right: 7%;
+width: 60%;
+}
+header nav ul{
+display: flex;
+flex-direction: row;
+}
+nav ul li a{
+    margin-right: 40px;
+    font: 1.2em "Georgia";
+}
+#contact .linkcontainer2 i{
+padding: 4%;
+    font-size: 1.8em;
+    }
+    #contact .linkcontainer2{
+        margin: auto;
+        width: 35%;
+  
+        }
+        .container2{
+            display: flex;
+            flex-direction: row;
+            width: 95%;
+            margin: auto;
+            text-align: center;
+        }
+        .container2 .ctitem{
+            width: 100%;
+        }
+  }
